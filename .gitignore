@@ -1,0 +1,17 @@
+/build/
+/sim/work/
+/sim/transcript
+/sim/*.log
+/sim/*.wlf
+/sim/*.result
+/sim/*_trace.csv
+/sim/modelsim.ini
+/sim/photo_font.dath
+/sim/photo_subtitle_font.dath
+/src/td_project/*
+!/src/td_project/al_ip/
+!/src/td_project/anlu_hdmi.al
+td_*.log
+td_*.logw
+__pycache__/
+*.pyc

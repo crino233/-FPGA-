@@ -1,0 +1,11 @@
+set_pin_assignment { key3 } { LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { sw1 } { LOCATION = C8; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { sw2 } { LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { sw3 } { LOCATION = C6; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { sw4 } { LOCATION = C5; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { flash_cs_n } { LOCATION = P8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { flash_miso } { LOCATION = N8; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { flash_sclk } { LOCATION = M9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { flash_mosi } { LOCATION = P7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { flash_wp_n } { LOCATION = P9; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { flash_hold_n } { LOCATION = R9; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }

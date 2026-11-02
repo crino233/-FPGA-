@@ -1,0 +1,66 @@
+{
+  "source_baseline": "00fb71468f0788a1e772690e7f941e947d534b90",
+  "device": "EG4S20BG256",
+  "accepted_bit": {
+    "path": "release/anlu_hdmi.bit",
+    "bytes": 638936,
+    "sha256": "D2A64D953B62C5AD7C50C23347D3C5C9750C93225C94C515EAEAF9760C0E2C28"
+  },
+  "cleanup": {
+    "rtl_logic_unchanged_files": 32,
+    "official_files_byte_identical": 75,
+    "official_files_comments_only_changes": 4,
+    "legacy_directory": "sim/legacy",
+    "project_file_entries": 53,
+    "official_files_retained": true
+  },
+  "verification": {
+    "date": "2026-11-02",
+    "tests_passed": [
+      "tb_photo_control",
+      "tb_photo_audio",
+      "tb_photo_scene_audio",
+      "tb_photo_badge",
+      "tb_bmp_edges",
+      "tb_photo_power_reset",
+      "tb_photo_status_osd",
+      "tb_photo_overlay",
+      "tb_photo_config_flash",
+      "tb_sd_card",
+      "tb_sd_reset_full",
+      "tb_photo_startup_subtitle",
+      "tb_photo_image_scale_demo",
+      "tb_photo_image_scale_wav_full"
+    ],
+    "sd_equivalence_tests": [
+      "tb_sd_card",
+      "tb_sd_reset_full"
+    ],
+    "full_td_build_complete": true,
+    "independent_final_drc_complete": true,
+    "rebuilt_sha256": "43556E2B3B8E8177A9D056BC0B383D4773F14EEDFD8EAADFF606A77B84D9A87D",
+    "rebuilt_differs_only_in_date_line": true,
+    "date_line_changed_bytes": 4,
+    "resources": {
+      "lut": 17151,
+      "registers": 10145,
+      "bram9k": 33,
+      "bram32k": 12,
+      "dsp": 0,
+      "pll": 3
+    },
+    "setup_wns_ns": -6.558,
+    "setup_tns_ns": -1381.623,
+    "hold_wns_ns": 0.021,
+    "hold_tns_ns": 0,
+    "sta_closed": false,
+    "hardware_programmed_during_cleanup": false,
+    "assets_replaced_after_verification": true,
+    "current_assets_regression_run": false
+  },
+  "reports": {
+    "release/reports/anlu_hdmi_route.area": "E89F38173C413D6E50C499647FF766867ED921BE461F30671527713DBE6FDF71",
+    "release/reports/anlu_hdmi_route.timing": "13D6952AAF556EEFE6021A014A78CBC87FBF0CB6ADDC5494884C3C5BE5FED869",
+    "release/reports/anlu_hdmi_route.ts": "8C1A985CCD8F9F34ABE62B3E8894E4923D5DF90586CE07E2E1CAB304894E4E6F"
+  }
+}
